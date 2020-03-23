@@ -1,4 +1,4 @@
-package io.github.mat3e;
+package io.github.mat.e.todo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

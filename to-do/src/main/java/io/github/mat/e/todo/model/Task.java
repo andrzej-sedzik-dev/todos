@@ -1,7 +1,8 @@
-package io.github.mat3e.model;
+package io.github.mat.e.todo.model;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
+
 
 @Entity
 @Table(name = "tasks")

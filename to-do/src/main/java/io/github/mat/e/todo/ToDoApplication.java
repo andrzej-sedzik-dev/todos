@@ -1,4 +1,4 @@
-package io.github.mat3e;
+package io.github.mat.e.todo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -31,8 +31,6 @@ public class ToDoApplication implements RepositoryRestConfigurer {
 		validatingListener.addValidator("beforeCreate", validator());
 		validatingListener.addValidator("beforeSave", validator());
 	}
-
-
 
 
 
